@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic HomeworkApp
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<!-- .......................................................... -->
+<!-- App Toolbar -->
+<ion-content padding>
+
+  <ion-toolbar color="dark">
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon slot="icon-only" name="contact"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button color="primary">
+        <ion-icon slot="icon-only" name="more"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>Cat App Toolbar</ion-title>
+  </ion-toolbar> 
+
+  
+  <ion-card>
+    <ion-card-header>
+   <h1>Skat Cat</h1> 
+    </ion-card-header>
+  <ion-card-content>
+  <p>"No amount of time can erase the memory of a good cat, and no amount of masking tape can ever totally remove his fur from your couch."</p>
+</ion-card-content>
+</ion-card>
+
+<ion-toolbar>
+  <h2>Buy something...</h2>
+  <ion-buttons slot="end">
+    <ion-button (click)="presentAlertCat()"> Select! </ion-button>
+    <ion-button> Cancel</ion-button> 
+  </ion-buttons>
+</ion-toolbar>
+
+
+</ion-content>
+
